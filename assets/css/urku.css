@@ -11,6 +11,18 @@ body {
     margin: 0;
 }
 
+a.disabled, .btn[disabled] {
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .15;
+}
+
+a.home-disabled {
+    cursor: not-allowed;
+}
+
 .rk-container {
     margin-right: auto;
     margin-left: auto;
