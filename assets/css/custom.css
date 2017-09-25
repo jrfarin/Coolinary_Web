@@ -1231,11 +1231,11 @@ hr.bd-bt {
 }
 
 .item-4 {
-    background-image: url("../img/project-4.jpg");
+    background-image: url("../img/project-6.jpg");
 }
 
 .item-5 {
-    background-image: url("../img/project-5.jpg");
+    background-image: url("../img/home/project-5.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1255,7 +1255,7 @@ hr.bd-bt {
 }
 
 .item-7 {
-    background-image: url("../img/project-7.jpg");
+    background-image: url("../img/home/project-7.jpg");
 }
 
 .item-8 {
@@ -1421,7 +1421,7 @@ hr.bd-bt {
 }
 
 .post-inside-1 {
-    background-image: url("../img/home/project-4.jpg");
+    background-image: url("../img/home/project-6.jpg");
 }
 
 #layout-grid:checked~.rk-portfolio, #layout-grid:checked~.rk-blog {
@@ -1515,7 +1515,7 @@ hr.bd-bt {
 .blog-info, .blog-meta {
     margin: 0 auto;
     text-align: center;
-    width: 78.5%;
+    width: 83.5%;
 }
 
 .blog-info {
@@ -1523,7 +1523,7 @@ hr.bd-bt {
 }
 
 .blog-info__title {
-    letter-spacing: .04em;
+    /*letter-spacing: .04em;*/
 }
 
 .blog-info__author {
@@ -1576,7 +1576,7 @@ hr.bd-bt {
 }
 
 #layout-grid:checked~.rk-blog .blog-info__title, .rk-blog--columns .blog-info__title {
-    font-size: 1.3125rem;
+    font-size: 1.3rem;
 }
 
 #layout-grid:checked~.rk-blog .blog-info__author, .rk-blog--columns .blog-info__author {
@@ -1616,7 +1616,7 @@ hr.bd-bt {
 }
 
 .post-1 {
-    background-image: url("../img/home/project-4.jpg");
+    background-image: url("../img/home/project-6.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1626,11 +1626,11 @@ hr.bd-bt {
 }
 
 .post-2 {
-    background-image: url("../img/octubre/chou-fleur.jpg");
+    background-image: url("../img/home/project-7.jpg");
 }
 
 .post-3 {
-    background-image: url("../img/octubre/agneau.jpg");
+    background-image: url("../img/home/project-5.jpg");
     background-size: 168%;
 }
 
@@ -1644,11 +1644,11 @@ hr.bd-bt {
 }
 
 .post-4 {
-    background-image: url("../img/post-4.jpg");
+    background-image: url("../img/home/project-12.jpg");
 }
 
 .post-5 {
-    background-image: url("../img/post-5.jpg");
+    background-image: url("../img/home/project-9.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1658,7 +1658,7 @@ hr.bd-bt {
 }
 
 .post-6 {
-    background-image: url("../img/post-6.jpg");
+    background-image: url("../img/home/project-1.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1692,7 +1692,7 @@ hr.bd-bt {
 }
 
 .post-1 {
-    background-image: url("../img/home/project-4.jpg");
+    background-image: url("../img/home/project-6.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1702,11 +1702,11 @@ hr.bd-bt {
 }
 
 .post-2 {
-    background-image: url("../img/octubre/chou-fleur.jpg");
+    background-image: url("../img//home/project-7.jpg");
 }
 
 .post-3 {
-    background-image: url("../img/octubre/agneau.jpg");
+    background-image: url("../img/home/project-5.jpg");
     background-size: 160%;
 }
 
@@ -1720,11 +1720,11 @@ hr.bd-bt {
 }
 
 .post-4 {
-    background-image: url("../img/post-4.jpg");
+    background-image: url("../img/home/project-12.jpg");
 }
 
 .post-5 {
-    background-image: url("../img/post-5.jpg");
+    background-image: url("../img/home/project-9.jpg");
 }
 
 @media (min-width: 40em) {
@@ -1734,7 +1734,7 @@ hr.bd-bt {
 }
 
 .post-6 {
-    background-image: url("../img/post-6.jpg");
+    background-image: url("../img/home/project-1.jpg");
 }
 
 @media (min-width: 40em) {
