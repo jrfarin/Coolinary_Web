@@ -19,16 +19,22 @@ a.disabled, .btn[disabled] {
     opacity: .15;
 }
 
-a.home-disabled {
+a.home-disabled, a.recetas-disabled {
     cursor: not-allowed;
 }
 
 h1.pf-title {
     font-size: 2rem;
 }
+
+p.ae-eta {
+    padding: 0 8rem;
+}
+
 .pf-mb0 {
     margin-bottom: 0;
 }
+
 .sep-rg {
     border-right: 1px solid #ffeab1;
 }
@@ -36,34 +42,60 @@ h1.pf-title {
 .au-xs-pbp-1 {
     padding-bottom: 3.33333%;
 }
+
 .au-xs-ptp-1 {
     padding-top: 2%;
 }
+
 .ae-eta {
     font-size: 1.35rem;
 }
+
+table.sep-rg th {
+    border-bottom: 1px solid #ffeab1;
+}
+
+table.tbl-3 tr>td:first-child {
+    width: 78%;
+}
+
 td, th {
     padding: .25rem;
 }
+
 ul.custom {
     list-style-type: none;
     list-style-image: url(../img/icons/list.svg);
     padding-left: 24px;
     margin: 0;
 }
-ul.custom >li.none-list {
+
+ul.custom>li.none-list {
     list-style-image: none;
     padding-top: 20px;
 }
+
+li.info, span.info {
+    font-weight: bold;
+}
+
 small {
     font-size: 70%;
     font-family: lato;
 }
+
 hr.bd-bt {
     border-top: 1px solid #ffeab1;
     margin: 0rem auto 3rem;
     width: 81.5%;
 }
+
+hr.list-li {
+    border-top: 1px solid #ffeab1;
+    margin: 0.39rem 0;
+    width: 22%;
+}
+
 .rk-container {
     margin-right: auto;
     margin-left: auto;

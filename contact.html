@@ -1,88 +1,75 @@
 <!DOCTYPE html>
 <html>
   <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Urku Portfolio :: Pixeden</title>
-    <link rel="icon" type="image/svg+xml" href="assets/img/urku-ico.svg">
+    <title>Coolinary Master Classe's Octubre</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/icons/urku-ico.svg">
     <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
     <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
-  <body class="top-fixed">
-    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
-      <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-      <label for="mobile-menu">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#bar"></use>
-        </svg>
-      </label>
-      <div class="ae-container-fluid rk-topbar">
-        <h1 class="rk-logo"><a href="index.html">urku portfolio<sup>tm</sup></a></h1>
-        <nav class="rk-navigation">
-          <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Flex</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-alt.html" class="rk-menu__link">Switch</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-raw.html" class="rk-menu__link">Static</a></li>
-                  <li class="rk-menu__item"><a href="portfolio-masonry.html" class="rk-menu__link">Masonry</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-            </li>
-            <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
-              <nav class="rk-menu__sub">
-                <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
-                </ul>
-              </nav>
-            </li>
-            <li class="active rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
-            </li>
-          </ul>
-          <form class="rk-search">
-            <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
-            <label for="urku-search">
-              <svg>
-                <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-              </svg>
-            </label>
-          </form>
-        </nav>
-      </div>
-    </header>
     <style>
-      #map-container {
-        width: 100%;
-        height: 0;
-        margin: 0 auto;
-        padding-top: 134.74026%;
-        position: relative;
+        #map-container {
+            width: 100%;
+            height: 0;
+            margin: 0 auto;
+            padding-top: 134.74026%;
+            position: relative;
+        }
+        #map {
+            width: 100%;
+            height: 100%; /* had to specify height/width */
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
       }
-      #map {
-        width: 100%;
-        height: 100%; /* had to specify height/width */
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-      }
-
     </style>
+</head>
+<body class="top-fixed">
+    <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+          <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+          <label for="mobile-menu">
+              <img src="assets/img/icons/menu.svg" alt="">
+          </label>
+          <div class="ae-container-fluid rk-topbar">
+              <h1 class="rk-logo">
+                  <a href="index.html">
+                      <img src="assets/img/icons/logo.svg" alt="Coolinary Master Classe's" class="mc-logo">
+                      <sup>tm</sup>
+                  </a>
+              </h1>
+              <nav class="rk-navigation">
+                  <ul class="rk-menu">
+                      <li class="rk-menu__item">
+                          <a href="./index.html" class="rk-menu__link">Home</a>
+                      </li>
+                      <li class="rk-menu__item">
+                          <a href="recetas.html" class="rk-menu__link">Recetas</a>
+                          <nav class="rk-menu__sub">
+                              <ul class="rk-container">
+                                  <li class="active rk-menu__item"><a href="./octubre.html" class="rk-menu__link">Octubre</a></li>
+                                  <li class="rk-menu__item"><a href="./noviembre.html" class="rk-menu__link disabled">Noviembre</a></li>
+                                  <li class="rk-menu__item"><a href="./diciembre.html" class="rk-menu__link disabled">Diciembre</a></li>
+                              </ul>
+                          </nav>
+                      </li>
+                      <li class="active rk-menu__item">
+                          <a href="contact.html" class="rk-menu__link">Hablamos</a>
+                      </li>
+                  </ul>
+                  <form class="rk-search">
+                      <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
+                      <label for="urku-search">
+                          <img src="assets/img/icons/search.svg" alt="">
+                      </label>
+                  </form>
+              </nav>
+          </div>
+    </header>
+
     <div class="ae-container-fluid ae-container-fluid--inner rk-main">
       <div class="ae-grid">
         <div class="ae-grid__item item-lg-6 item-lg--offset-7">
@@ -127,42 +114,49 @@
         </div>
       </div>
     </div>
-    <footer class="ae-container-fluid rk-footer ">
-      <div class="ae-grid ae-grid--collapse">
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
-          <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a>
-            </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
-            </li>
-            <li class="active rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-            </li>
-          </ul>
-          <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">2015 URKU PORTFOLIO </span>All Right Reserved.</p>
+
+    <footer class="ae-container-fluid au-mb-3 ">
+        <div class="ae-grid ae-grid--collapse">
+            <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
+                <ul class="rk-menu rk-footer-menu">
+                    <li class="rk-menu__item">
+                        <a href="./recetas.html" class="rk-menu__link">Recetas</a>
+                    </li>
+                    <li class="active rk-menu__item">
+                        <a href="./contact.html" class="rk-menu__link">Hablamos</a>
+                    </li>
+                </ul>
+                <p class="rk-footer__text rk-footer__copy ">
+                    <span class="ae-u-bold">© </span>
+                    <span class="ae-u-bolder">2017 CMC's &amp; J.R.Farin </span>All Right Reserved.
+                </p>
+            </div>
+            <div class="ae-grid__item item-lg-4 au-xs-ta-center">
+                <a href="#0" class="rk-social-btn ">
+                    <img src="assets/img/icons/facebook.svg" alt="facebook">
+                </a>
+                <a href="#0" class="rk-social-btn ">
+                    <img src="assets/img/icons/twitter.svg" alt="twitter">
+                </a>
+                <a href="#0" class="rk-social-btn ">
+                    <img src="assets/img/icons/instagram.svg" alt="instagram">
+                </a>
+            </div>
+            <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
+                <p class="rk-footer__text rk-footer__contact ">
+                    <span class="ae-u-bold">Email: </span>
+                    <span class="ae-u-bolder">
+                        <a href="#0" class="rk-dark-color ">contact@webflix.es </a>
+                    </span>
+                </p>
+            </div>
         </div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center"><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
-            </svg></a><a href="#0" class="rk-social-btn ">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-tumblr"></use>
-            </svg></a></div>
-        <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
-          <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="#0" class="rk-dark-color ">contact@urkuportfolio.com </a></span></p>
-          <p class="rk-footer__text rk-footer__by">Theme by <a href="http://pixeden.com" class="ae-u-bolder">Pixeden.</a></p>
-        </div>
-      </div>
     </footer>
+
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-      var pxLat = 40.767812,
-          pxLng = -73.962014;
+      var pxLat = 41.23846,
+          pxLng = 1.7565228;
 
       // When the window has finished loading create our google map below
       var map = google.maps.event.addDomListener(window, 'load', init);
@@ -203,7 +197,7 @@
               },
               position: new google.maps.LatLng(pxLat, pxLng),
               map: map,
-              title: 'Pixeden!'
+              title: 'Coolinary Master Classes'
           });
 
           //- map.addListener('center_changed', function() {
