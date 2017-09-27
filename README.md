@@ -1,2 +1,3 @@
 # Coolinary_Web
-first commit
+Web App for Coolynary Master Classes
+WorkShops and Recipes
