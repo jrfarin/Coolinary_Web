@@ -23,3 +23,25 @@ for( i = 0; i < x.length; i++) {
         e.preventDefault();
     })
 };
+
+
+// Contact-Form
+$(document).ready(function(){
+      $("#contact-form").submit(function( event ){
+       event.preventDefault();
+
+       $.ajax({
+           type: 'POST',
+           url: '../mail/contact-form.php',
+           data: $(this).serialize(),
+           success: function(data){
+               $("#respuesta").slideDown();
+               $("#respuesta").html(data);
+               $('#respuesta2').modal('show');
+               document.getElementById('contact-form').reset();
+           }
+       });
+
+       return false;
+   });
+});

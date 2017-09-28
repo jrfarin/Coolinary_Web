@@ -22,7 +22,23 @@ a.disabled, .btn[disabled] {
 a.home-disabled, a.recetas-disabled {
     cursor: not-allowed;
 }
-
+a.btn-send {
+    background: #b88f23;
+    width: 50%;
+}
+a.btn-send > input {
+    padding-top: 10px;
+    color: white;
+}
+a.btn-back {
+    background: #b88f23;
+    width: 20%;
+    padding: 9px;
+    margin: 3em auto;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
 h1.pf-title {
     font-size: 2rem;
 }
