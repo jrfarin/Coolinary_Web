@@ -89,16 +89,24 @@
                 </div>
 
                 <div class="ae-grid__item item-lg-10">
-                    <form id="contact-form" action="./contact-form.php" class="ae-form--full">
-                        <input type="text"  id="Nombre" name="Nombre" placeholder="* Nombre" required>
-                        <input type="email" id="Email" name="Email"  placeholder="* Email" required>
-                        <textarea id="Mensaje" name="Mensaje"  placeholder="Mensaje ..." cols="30" rows="4" required></textarea>
-                        <p class="au-xs-ta-right au-pt-3 group-buttons">
-                            <a href="#" class="arrow-button arrow-button--right btn-send">
-                                <input type="submit" class="arrow-button arrow-button--right" value="Enviar">
-                            </a>
-                        </p>
-                        <div id="respuesta" style="display: none;"></div>
+                    <form action="#" method="post" class="contactForm ae-form--full">
+                        <div class="formSecWrap">
+                            <label for="form_name"></label>
+                                <input type="text" name="form_name" id="form_name" placeholder="Nombre"  value="" />
+
+                            <label for="form_email"></label>
+                                <input type="text" name="form_email" id="form_email" placeholder="Email" value="" />
+
+                            <label for="form_subject"></label>
+                                <input type="text" name="form_subject" id="form_subject" placeholder="Asunto" value="" />
+                        </div>
+                        <div class="formSecWrap formSecWrap2">
+                            <label for="form_message"></label>
+                                <textarea class="textarea" name="form_message" id="form_message" placeholder="Mensaje"></textarea>
+                                <input class="button btn-send" name="submit" id="submit-form" type="submit" value="Enviar Mensaje" />
+                        </div>
+
+                        <div id="success"></div>
                     </form>
                 </div>
             </div>
@@ -152,6 +160,7 @@
     <script src="./assets/js/map.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/contact_form.js"></script>
     <script src="./assets/js/main.js"></script>
 
   </body>
