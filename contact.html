@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/aurora-pack.min.css">
     <link rel="stylesheet" href="assets/css/aurora-theme-base.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="js/jquery-1.6.2.min.js" type="text/javascript"></script>
+    <script src="js/forms.js" type="text/javascript"></script>
     <style>
         #map-container {
             width: 100%;
@@ -89,16 +91,15 @@
                 </div>
 
                 <div class="ae-grid__item item-lg-10">
-                    <form id="contact-form" action="./contact-form.php" class="ae-form--full">
-                        <input type="text"  id="Nombre" name="Nombre" placeholder="* Nombre" required>
-                        <input type="email" id="Email" name="Email"  placeholder="* Email" required>
-                        <textarea id="Mensaje" name="Mensaje"  placeholder="Mensaje ..." cols="30" rows="4" required></textarea>
-                        <p class="au-xs-ta-right au-pt-3 group-buttons">
-                            <a href="#" class="arrow-button arrow-button--right btn-send">
-                                <input type="submit" class="arrow-button arrow-button--right" value="Enviar">
+                    <form id="contact-form" action="#0" class="ae-form--full">
+                        <input type="text" placeholder="* Nombre" required="">
+                        <input type="email" placeholder="* Email" required="">
+                        <textarea placeholder="Mensaje ..." cols="30" rows="4"></textarea>
+                        <p class="au-xs-ta-right">
+                            <a href="#0" class="btn-send">Enviar
+                                <span class="arrow-cont"></span>
                             </a>
                         </p>
-                        <div id="respuesta" style="display: none;"></div>
                     </form>
                 </div>
             </div>
@@ -110,7 +111,7 @@
         </div>
     </div>
 
-    <footer class="ae-container-fluid au-mb-3 ">
+    <footer class="ae-container-fluid au-mb-3 au-mt-4">
         <div class="ae-grid ae-grid--collapse">
             <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
                 <ul class="rk-menu rk-footer-menu">
