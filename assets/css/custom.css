@@ -2346,6 +2346,38 @@ hr.list-li {
     font-weight: 400;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
+
+/* Formulario */
+#contact-form .success {
+    color: #fff;
+    width: 246px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background: #d77831;
+}
+#contact-form .error, #contact-form .empty {
+    color: red;
+    padding: 5px 0;
+}
+#contact-form input,
+#contact-form textarea {
+    width:100%;
+}
+#contact-form span {
+    margin: 5px 10px;
+    display: block;
+}
+#contact-form a[data-type="submit"]{
+    background: #b88f23;
+    padding: 10px 40px;
+    margin: 10px 0;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+=======
 .alert {
 	padding: 8px 15px;
 	margin-bottom: 10px;
@@ -2450,4 +2482,5 @@ hr.list-li {
         margin-bottom: 2rem !important;
         margin-top: 20px !important;
     }
+>>>>>>> 888de0ca8214f8defb78a0aac945f91d06efd7cc
 }
